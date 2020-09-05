@@ -1,0 +1,481 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: calibri;
+
+}
+
+.header{
+	text-align: center;
+	font-family: calibri;
+	background: url(../img/logo.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: 0 -90px;
+
+}
+.header h2{
+	font-size: 80px;
+}
+.header p{
+	font-size: 40px;
+}
+
+ul {
+  	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+  	position: sticky;
+  	top: 0;
+  	text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  	display: inline-block;
+  	color: white;
+  	padding: 20px 22px;
+  	text-decoration: none;
+  	margin-left: 20px;
+}
+
+li a:hover {
+  	background-color: #111;
+}
+
+.active {
+  	background-color: #4CAF50;
+}
+#home{
+	background-color: #fcc11b;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  	max-width: 1200px;
+  	margin: auto;
+}
+
+.slideshow-container img{
+	width: 1200px;
+	height: 650px;
+	border: 5px solid #333;
+	border-top: none;
+}
+
+/* The dots/bullets/indicators */
+#home .dot {
+	display: inline-block;
+  	height: 15px;
+  	width: 15px;
+  	background-color: #333;
+  	border-radius: 50%;	
+  	transition: background-color 0.6s ease;
+  	margin-bottom: 30px;
+}
+.active {
+  background-color: #717171;
+}
+
+.info1 img{
+	width: 668px;
+	height: 500px;
+	float: right;
+	border-left: 5px solid #333;
+}
+.info1{
+	border: 5px solid #333;
+	overflow: auto;
+}
+
+.info1 h1{
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+.info1 p{
+	text-indent: 20px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+.info2 img{
+	width: 665px;
+	height: 520px;
+	float: left;
+	border-right: 5px solid #333;
+	margin-right: 20px;
+}
+
+.info2{
+	border: 5px solid #333;
+	border-top: none;
+	overflow: auto;
+}
+.info2 h1{
+	font-size: 40px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+.info2 p{
+	text-indent: 20px;
+	font-size: 25px;
+}
+
+.gejala{
+	background-color: #fcc11b;
+}
+
+.gejala h1{
+	padding: 20px;
+	text-align: center;
+}
+
+
+.image1{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	margin-left: 200px;
+}
+
+.image1 img{
+	width: 200px;
+	padding: 20px;
+}
+
+.image1 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.image2{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+}
+.image2 img{
+	width: 200px;
+	padding: 20px;
+}
+
+.image2 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.image3{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+}
+
+.image3 img{
+	width: 200px;
+	padding: 20px;
+}
+
+.image3 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.image4{
+	display: inline-block;
+	margin-left: 200px;
+	border: 5px solid #333;
+	margin-top: 40px;
+}
+
+.image4 img{
+	width: 200px;
+	padding: 20px;
+}
+
+.image4 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.image5{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	margin-top: 40px;
+}
+
+.image5 img{
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+}
+
+.image5 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.image6{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+}
+
+.image6 img{
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+}
+
+.image6 p{
+	text-align: center;
+	font-size: 40px;
+}
+
+.pencegahan h1{
+	text-align: center;
+	padding: 80px;
+}
+
+.pencegahan{
+	background-color: #fcc11b;
+	padding-top: 20px;
+}
+
+.cegah1{
+	display: inline-block;
+	margin-left: 50px;
+	border: 5px solid #333;
+}
+
+.cegah1 img{
+	width: 200px;
+	padding: 20px;
+}
+
+.cegah1 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-left: 10px;
+}
+
+.cegah2{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 12px;
+}
+
+.cegah2 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+}
+
+.cegah2 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah3{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 47px;
+}
+
+.cegah3 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah3 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah4{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 47px;
+}
+
+.cegah4 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah4 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah5{
+	display: inline-block;
+	margin-left: 50px;
+	border: 5px solid #333;
+	padding-top: 47px;
+	margin-top: 40px;
+}
+
+.cegah5 img{
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah5 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah6{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 47px;
+	margin-top: 40px;
+}
+
+.cegah6 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah6 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah7{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 47px;
+	margin-top: 40px;
+}
+
+.cegah7 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah7 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cegah8{
+	display: inline-block;
+	margin-left: 100px;
+	border: 5px solid #333;
+	padding-top: 47px;
+	margin-top: 40px;
+}
+
+.cegah8 img{
+	width: 180px;
+	height: 150px;
+	padding: 20px;
+
+}
+
+.cegah8 p{
+	text-align: center;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact{
+	background-color: #fcc11b;
+}
+
+.contact h1{
+	text-align: center;
+	padding: 20px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.foto1{
+	display: inline-block;
+	border: 5px solid #333;
+	margin-left: 160px;
+}
+
+.foto1 img{
+	width: 400px;
+	border-radius: 50%;
+	padding: 20px;	
+}
+
+.foto2{
+	display: inline-block;
+	border: 5px solid #333;
+	margin-left: 120px;
+}
+
+.foto2 img{
+	width: 415px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.foto1 p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.foto1 .p2{
+	font-size: 22px;
+	margin: auto;
+	padding: 10px;
+}
+
+.kontak img{
+	width: 80px;
+	padding: 30px;
+}
+
+.foto2 p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.foto2 .p2{
+	font-size: 22px;
+	margin: auto;
+	padding: 10px;
+}
